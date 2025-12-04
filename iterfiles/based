@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for file in ./files/* ./files/.[!.]*
+do
+    echo "file $file"
+done
