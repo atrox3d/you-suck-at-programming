@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# the $* expands all the parameters separated by spaces so we have more params!
 for arg in $*
 do
     echo "cringe: arg $arg"

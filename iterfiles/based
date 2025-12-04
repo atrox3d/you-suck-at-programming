@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# globbing correctly list the files one by one
+# ./files/.[!.]* adds any hidden files except ., ..
 for file in ./files/* ./files/.[!.]*
 do
     echo "file $file"

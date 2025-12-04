@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# "${@}" expands to a list of quoted params
 for arg in "${@}"
 do
     echo "based: arg $arg"
