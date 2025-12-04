@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# file d\ne has a newline which is also the read delimiter so we get 4 files instead of three
+find files -type f | while read file
+do
+    echo "<$file>"
+done
+
